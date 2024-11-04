@@ -1,0 +1,64 @@
+opción = int(input("Escribe la opción que deseas usar:"))
+
+#Opicion 3 español a francés 
+if opción == 3:
+    print ("Traductor español - francés")
+
+    opcion_tres = input ("Escribe la palabra que deseas traducir ")
+
+    if opcion_tres == "gato":
+        print ("Ta parole est CHAT")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "gato":    
+           print ("Ta parole est CHAT")
+
+        if opcion_tres == "perro":    
+           print ("Ta parole est CHIEN")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "perro":    
+           print ("Ta parole est CHIEN")
+    
+        if opcion_tres == "lobo":    
+           print ("Ta parole est LOUP")
+           opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_dos == "lobo":    
+           print ("Ta parole est LOUP")
+
+        if opcion_tres == "delfín":    
+           print ("Ta parole est DAUPHIN")
+        if opcion_tres == "delfín":    
+           print ("Ta parole est DAUPHIN")
+
+        if opcion_tres == "hurón":    
+           print ("Ta parole est FURET")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "hurón":    
+           print ("Ta parole est FURET")
+
+        if opcion_tres == "tiburón":     
+           print ("Ta parole est REQUIN")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "tiburón":    
+           print ("Ta parole est REQUIN")
+
+        if opcion_tres == "tigre":    
+           print ("Ta parole est TIGRE")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "tigre":    
+           print ("Ta parole est TIGRE")
+
+        if opcion_tres == "zorro":    
+           print ("Ta parole est RENARD")
+        if opcion_tres == "zorro":    
+           print ("Ta parole est RENARD")
+
+        if opcion_tres == "búho":    
+           print ("Ta parole est HIBOU")
+        opcion_tres = input ("Escribe la palabra que deseas traducir ")
+        if opcion_tres == "búho":    
+        print ("Ta parole est HIBOU")
+
+        if opcion_tres == "serpiente":    
+           print ("Ta parole est SERPENT")
+        if opcion_tres == "serpiente":    
+        print ("Ta parole est SERPENT")

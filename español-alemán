@@ -1,0 +1,67 @@
+opción = int(input("Escribe la opción que deseas usar:"))
+
+# Opción 2 español a alemán
+if opción == 2: 
+    print ("Traductor español - aleman")
+   
+    opcion_dos = input("Escribe la palabra que deseas traducir: ")
+    
+    if opcion_dos == "gato":
+        print ("Das Wort ist KATZE")
+        opcion_dos = input("Escribe otra palabra que deseas traducir: ")
+        if opcion_dos == "gato":
+            print ("Das Wort ist KATZE")
+
+        if opcion_dos == "perro":
+            print ("Das Wort ist HUND")
+        opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "perro":
+            print ("Das Wort ist HUND")
+
+        if opcion_dos == "lobo":
+            print ("Das Wort ist WOLF") 
+            opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "lobo":
+            print ("Das Wort ist WOLF")    
+
+        if opcion_dos == "delfín":
+            print ("Das Wort ist DELPHIN")
+            opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "delfín":
+            print ("Das Wort ist DELPHIN")
+
+        if opcion_dos == "hurón":
+            print ("Das Wort ist FRETTCHEN")
+        opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "hurón":
+            print ("Das Wort ist FRETTCHEN")
+
+        if opcion_dos == "tiburón":
+            print ("Das Wort ist HAI")
+        opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "tiburón":
+            print ("Das Wort ist HAI")
+
+        if opcion_dos == "tigre":
+            print ("Das Wort ist TIGER")
+        opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "tigre":
+            print ("Das Wort ist TIGER")
+        
+        if opcion_dos == "zorro":
+            print ("Das Wort ist FUCHS")
+            opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "zorro":
+            print ("Das Wort ist FUCHS")
+
+        if opcion_dos == "búho":
+            print ("Das Wort ist EULE")
+            opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "búho":
+            print ("Das Wort ist EULE")
+
+        if opcion_dos == "serpiente":
+            print ("Das Wort ist SCHLANGE")
+            opcion_dos = input("Escribe otra palabra que deseas traducir : ")
+        if opcion_dos == "serpiente":
+            print ("Das Wort ist SCHLANGE")

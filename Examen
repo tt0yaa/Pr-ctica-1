@@ -1,0 +1,32 @@
+# datos personales y variables
+nombre = input("Para comenzar, escribe tu nombre, por favor: ")
+print("Hola, " + nombre)
+print("Esta es una calculadora que te dirá cuál es tu índice de masa corporal, por lo que te pediremos nos proporciones tus datos")
+
+
+edad = int(input("¿Cuántos años tienes, " + nombre + "?: "))
+
+sexo = input("Ingresa tu sexo (M/F): ")
+
+altura = float(input("¿Cuál es tu estatura en metros?: "))
+
+peso = float(input("¿Cuál es tu peso en kilogramos?: "))
+
+# calcular imc
+imc = (peso / altura**2)
+
+# clasificar el imc
+if imc < 18:
+    print( nombre + ", te informamos que tu índice de masa corporal indica que te encuentras en un peso bajo")
+elif imc > 20 < 24:
+    print( nombre + ", te informamos que tu índice de masa corporal indica que te encuentras en un peso normal")
+elif imc > 25 < 29:
+    print( nombre + ", te informamos que tu índice de masa coporal indica que te encuentras en un sobre peso")
+elif imc > 30 < 90:
+    print( nombre + ", te informamos que tu índice de masa corporal indica que te encuentras en obesidad")
+ 
+# Mensaje de agradecimiento
+print("Gracias por usar este programa para calcular el índice de masa corporal, " + nombre+ ". Esperamos que haya sido de tu agrado, eso sería todo. ")
+
+# Imprimimos un mensaje de fin
+print("Fin")
